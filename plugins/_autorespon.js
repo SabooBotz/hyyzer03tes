@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Fahzz tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad ga ush ngetag',
-                '©shirobotz',
+                isBanned ? 'Fahzz tidak aktif' : banned ? 'kamu dibanned' : 'lagi coli gausah tag',
+                '©Fahzz',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
