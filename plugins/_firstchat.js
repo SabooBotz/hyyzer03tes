@@ -14,7 +14,7 @@ handler.all = async function (m) {
     await conn.send3ButtonLoc(m.chat, await(await fetch(image)).buffer(), `
 Hai, ${ucapan()}
 
-${user.banned ? 'kamu dibanned' : `Saya Adalah Bot`}
+${user.banned ? 'kamu dibanned' : `Ada yang saya bisa bantu?`}
 `.trim(), watermark, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? ',owner' : '.menu', 'Panduan penggunaan', '.tutorbot', 'Verify', '.daftar undefined.16', m)
     user.pc = new Date * 1
 }
