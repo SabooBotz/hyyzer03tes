@@ -233,14 +233,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ _*${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}*_ 𝘾𝙝𝙖𝙩 𝙩𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
 ┃⬡ _*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖 𝙏𝙚𝙧𝙗𝙖𝙣𝙣𝙚𝙙
 ┗━━━━━━━━⬣
-┏━━〔 𝐆𝐂𝐁𝐎𝐓 〕━⬣
-┃⬡ 𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩
-┃⬡ 
-┃⬡https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
+┏━━〔 *_SewaBot?_* 〕━⬣
+┃⬡ *1 Day*     = *FREE*
+┃⬡ *1 Minggu*  = *Rp.5.000*
+┃⬡ *Permanent* = *Rp.10.000*
 ┃⬡ 
 ┗━━━━━━━━⬣`.trim(),
 
-                        "footerText": "*Create By Fahzz*",
+                        "footerText": "*_Create By Fahzz_*",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
