@@ -62,12 +62,11 @@ handler.all = async function (m, { isBlocked }) {
             setting.backupDB = new Date() * 1
         }
     }
-
-    // update status
+update status
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by Fahzz. `).catch(_ => _)
+        await this.setStatus('SEWABOT? wa.me/6285754180729 . `).catch(_ => _)
         setting.status = new Date() * 1
     }
 
