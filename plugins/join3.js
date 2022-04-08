@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 ketik *#menu* untuk melihat daftar perintah`, MessageType.text, { contextInfo: { externalAdReply :{
        mediaUrl: ' ',
        mediaType: 4,
-       title: 'Fahzz',
+       title: 'Sabo',
        body: 'Whatsapp Developer Bot',
        thumbnailUrl: image,
 sourceUrl: 'https://wa.me/6287892711054?text=Assalamualaikum'
