@@ -22,10 +22,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│➸ *Uptime:* ${uptime}
 ║│
 ║╭─❉〘 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 〙❉─
-║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁¹
-║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
+║│➸ GROUP OWNER BOT
+║│➸ https://chat.whatsapp.com/HKNdgk6CV1i06b9ArQ8EjP
 ║│
-║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁²
+║│➸ 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁
 ║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
 ║│
 ║│ ${readMore}
@@ -41,7 +41,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│➸ *ANDA DI DATABASE KAMI*
 ║╰─────────
 ╰═════════════════`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©Fahzz', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©Sabo', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['infobot']
 handler.tags = ['info']
