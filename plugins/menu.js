@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┗━━━━━━━━⬣`.trim(),
 
                         "footerText": "*_Create By Sabo_*",
-                        "buttonText": "*Klik Disini*",
+                        "buttonText": "*List Menu*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
