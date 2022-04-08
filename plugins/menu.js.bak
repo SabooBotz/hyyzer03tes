@@ -221,8 +221,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
-                        "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `©Fahzz`.trim(),
+                        "title": `*${ucapan()`, ${name}*`.trim(),
+                        "description": `©Sabo`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
@@ -357,14 +357,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? tanpakategori"
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
-                                    "description": "Menu Khusu Owner",
+                                    "description": "Menu Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣────────────❲  All-Menu  ❳────────────⟢"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "pemilik RadBotZ",
+                                    "description": "pemilik Sabo botz",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
