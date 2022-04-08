@@ -3,15 +3,15 @@ let handler = async (m, { conn, text }) => {
   let ext= `
 ╭═════════════════
 ║╭──❉ [ GRUB BOT ] ❉──
-║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋¹*
-║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
-║│➸ *𝐆𝐑𝐎𝐔𝐏 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋²*
+║│➸ *GROUP OWNER*
+║│➸ https://chat.whatsapp.com/HKNdgk6CV1i06b9ArQ8EjP
+║│➸ *GROUP BOT*
 ║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
 ║╰───────────────
 ╰══════════════════
 
 `.trim()
-conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'GRUB SIRAD')).buffer(), ext, 'Fahzz', 'SIAP BANG🗿', 'AUTO JOIN', 'Donasi', '.donasi', m)
+conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'GRUB SIRAD')).buffer(), ext, 'Sabo', 'SIAP BANG🗿', 'AUTO JOIN', 'Donasi', '.donasi', m)
 
 }
 handler.help = ['gcbot']
