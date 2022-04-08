@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Fahzz tidak aktif' : banned ? 'kamu dibanned' : 'lagi coli gausah tag',
-                '©Fahzz',
+                isBanned ? 'Sabo tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad gausah di ganggu',
+                '©Sabo',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -38,7 +38,7 @@ handler.all = async function (m, { isBlocked }) {
 ║- 6282145203493 (Dana)
 ║- 6282145203493 (Gopay)
 ║- 6282145203493 (Pulsa)
-╠═〘 Fahzz 〙 ═`.trim(), '©Fahzz', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
+╠═〘 Sabo 〙 ═`.trim(), '©Sabo', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
 }
 
     // salam
