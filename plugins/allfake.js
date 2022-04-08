@@ -12,7 +12,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./src/RadBotZ.jpg') //Gambarnye
 					},
-					"title": "Fahzz",
+					"title": "Sabo",
 					"description": "SELF BOT", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
