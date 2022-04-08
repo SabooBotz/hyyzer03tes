@@ -33,7 +33,7 @@ const ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'Fahzz",
+                            message: 'Sabo",
                             orderTitle: 'Bang',
                             thumbnail: fs.readFileSync('./src/RadBotZ.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
