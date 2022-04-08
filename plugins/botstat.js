@@ -39,7 +39,7 @@ let handler = async (m, { conn }) => {
 │✧ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 │✧ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ╰────────────⬣`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, 'Fahzz', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, 'Sabo', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
