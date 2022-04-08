@@ -246,7 +246,7 @@ module.exports = {
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: true,
-          detect: false,
+          detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
@@ -258,7 +258,7 @@ module.exports = {
           nsfw: false,
           antiBadword: true,
           antiLink: false,
-          viewonce: true,
+          viewonce: false,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
