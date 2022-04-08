@@ -237,10 +237,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *PERMINGGU* = *Rp.3.000*
 ┃⬡ *PERBULAN*  = *Rp.5.000*
 ┃⬡ *PERMANENT* = *Rp.10.000*
-┃⬡ 
 ┗━━━━━━━━⬣`.trim(),
 
-                        "footerText": "*_Create By Sabo_*",
+                        "footerText": "*_Created By Sabo_*",
                         "buttonText": "*List Menu*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -266,7 +265,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": `|🧾| Semua Perintah`,
-                                    "description": "Memberikan Semua Fitur Bot",
+                                    "description": "Semua Fitur Bot",
                                     "rowId": ".? all"
                                 }, { 
                                     "title": "|🕋| Islam",
@@ -378,7 +377,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? tanpakategori"
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
-                                    "description": "Menu Khusu Owner",
+                                    "description": "Menu Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
