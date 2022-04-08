@@ -126,8 +126,8 @@ global.reloadHandler = function () {
   }
   conn.welcome = 'Hai @user\n Selamat Datang Di Grup:\n*@subject*'
   conn.bye = 'Selamat Tinggal @user!\nTerimakasih Telah Bergabung Di Grup\n\nDadah👋'
-  conn.spromote = 'Waduh @user Sekarang Admin'
-  conn.sdemote = 'Alhamdulillah @user Sekarang Bukan Admin:v'
+  conn.spromote = 'Selamat @user Anda Sekarang Adalah Admin'
+  conn.sdemote = 'Kasian @user Di Unadmin'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
